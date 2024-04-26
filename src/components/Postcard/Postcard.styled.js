@@ -4,7 +4,7 @@ export const Container = styled.div`
   max-width: 320px;
   height: 200px;
 
-  background-image: url(..//Images/Pion.jpg);
+  background-image: url(../public/logo192.png);
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
