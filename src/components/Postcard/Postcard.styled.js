@@ -17,8 +17,7 @@ export const Container = styled.div`
   margin-right: auto;
   background: rgb(0, 0, 0, 0.2);
   @media (min-width: 600px) {
-    min-width: 500px;
-    max-width: 820px;
+    max-width: 85%;
     background: rgb(0, 0, 0, 0.2);
   }
 `;
