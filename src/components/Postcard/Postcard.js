@@ -1,8 +1,10 @@
-import { Container } from './Postcard.styled';
+import { Container, Fon } from './Postcard.styled';
 export default function Postcard() {
   return (
-    <Container>
-      <h1>Misha & Marta</h1>
-    </Container>
+    <Fon>
+      <Container>
+        <h1>Misha & Marta</h1>
+      </Container>
+    </Fon>
   );
 }
