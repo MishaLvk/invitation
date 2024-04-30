@@ -3,10 +3,10 @@ import rain from '../Images/water.png';
 import drops from '../Images/drops.png';
 
 export const Water = styled.div`
-  width: 100vh;
+  width: 100%;
   height: 100vh;
   background-image: url(${rain});
-  background-size: 120%;
+  background-size: 100%;
   animation: rain 0.3s linear infinite;
 
   @keyframes rain {
@@ -21,7 +21,7 @@ export const Water = styled.div`
 
 export const Drops = styled.div`
   color: white;
-  width: 100vh;
+  width: 100%;
   height: 100vh;
   background-image: url(${drops});
   background-size: 100%;
