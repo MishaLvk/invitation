@@ -9,15 +9,15 @@ export const Fon = styled.div`
 `;
 
 export const Container = styled.div`
-  max-width: 85%;
-  height: 2200px;
+  max-width: 90%;
+  height: 900px;
 
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   background: rgb(0, 0, 0, 0.2);
   @media (min-width: 600px) {
-    max-width: 85%;
+    max-width: 90%;
     background: rgb(0, 0, 0, 0.2);
   }
 `;
