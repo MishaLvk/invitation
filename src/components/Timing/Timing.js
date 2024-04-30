@@ -9,9 +9,9 @@ export default function Timing() {
           <h2>Вінчання</h2>
           <p>12:00</p>
           <h2>Святкування</h2>
-          <p>14:00.</p>
+          <p>14:00</p>
         </Drops>
-      </Water>
+      </Water>{' '}
     </Container>
   );
 }

@@ -11,7 +11,7 @@ export const Fon = styled.div`
 `;
 
 export const Container = styled.div`
-  max-width: 90%;
+  max-width: 90vw;
   height: 900px;
 
   margin-top: 0;
@@ -19,7 +19,7 @@ export const Container = styled.div`
   margin-right: auto;
   background: rgb(0, 0, 0, 0.2);
   @media screen and (min-width: 600px) {
-    max-width: 90%;
+    max-width: 90vw;
     background: rgb(0, 0, 0, 0.2);
   }
 `;
