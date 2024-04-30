@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import fon from '../Images/fon.jpg';
 
 export const Fon = styled.div`
+  margin: 0;
+  width: 100%;
   background-image: url(${fon});
   background-size: cover;
   background-position-x: center;
@@ -16,7 +18,7 @@ export const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
   background: rgb(0, 0, 0, 0.2);
-  @media (min-width: 600px) {
+  @media screen and (min-width: 600px) {
     max-width: 90%;
     background: rgb(0, 0, 0, 0.2);
   }
