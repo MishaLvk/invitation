@@ -8,4 +8,5 @@ export const Drops = styled.div`
   height: 100%;
   background-image: url(${drops});
   background-size: 100%;
+  background-repeat: no-repeat;
 `;
