@@ -1,18 +1,20 @@
 import styled from 'styled-components';
-import fon from '../Images/fon.jpg';
+//import fon from '../Images/fon.jpg';
 
 export const Fon = styled.div`
   margin: 0;
-  width: 100%;
-  background-image: url(${fon});
-  background-size: cover;
-  background-position-x: center;
-  background-repeat: no-repeat;
 `;
 
+/**width: 100%;
+  height: 2100px;
+  background-image: url(${fon});
+  background-size: auto, 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+**/
 export const Container = styled.div`
   max-width: 90vw;
-  height: 900px;
+  height: 90vh;
 
   margin-top: 0;
   margin-left: auto;
