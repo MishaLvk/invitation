@@ -1,5 +1,5 @@
-import { Video, Fon, Container, Content } from './Timing.styled';
-import video from '../Video/video.mp4';
+import { Fon, Container, Content } from './Timing.styled';
+//import video from '../Video/video.mp4';
 
 export default function Timing() {
   return (
