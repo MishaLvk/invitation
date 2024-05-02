@@ -1,19 +1,16 @@
 import Timing from 'components/Timing/Timing';
-import { Container, Fon, Foto } from './Postcard.styled';
+import { Fon } from './Postcard.styled';
 import Countdoun from 'components/Countdoun/Countdoun';
 import Location from 'components/Location/Location';
+import We from 'components/We/We';
 
 export default function Postcard() {
   return (
     <Fon>
-      <Countdoun />
+      <We />
       <Location />
       <Timing />
-      <Container>
-        <Foto>
-          <h1>Misha & Marta</h1>
-        </Foto>
-      </Container>
+      <Countdoun />
     </Fon>
   );
 }
