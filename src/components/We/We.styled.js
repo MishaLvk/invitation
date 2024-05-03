@@ -13,6 +13,9 @@ export const Fon = styled.div`
 `;
 
 export const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 90vw;
   height: 98vh;
 
@@ -24,4 +27,8 @@ export const Container = styled.div`
     max-width: 90vw;
     background: rgb(0, 0, 0, 0.1);
   }
+`;
+
+export const Logo = styled.h1`
+  margin: 0;
 `;

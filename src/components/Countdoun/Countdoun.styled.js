@@ -19,9 +19,9 @@ export const Container = styled.div`
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  background: rgb(0, 0, 0, 0.1);
+  background: rgb(0, 0, 0, 0.2);
   @media screen and (min-width: 600px) {
     max-width: 90vw;
-    background: rgb(0, 0, 0, 0.1);
+    background: rgb(0, 0, 0, 0.2);
   }
 `;

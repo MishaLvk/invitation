@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Fon = styled.div`
   margin: 0;
-  background-color: #e4ebf1;
+  background-color: #f8e8b4;
   width: 100%;
 `;
 
