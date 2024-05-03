@@ -1,17 +1,22 @@
 import styled from 'styled-components';
 
 export const Fon = styled.div`
+  position: relative;
+  display: block;
   margin: 0;
+  box-sizing: border-box;
   color: white;
   width: 100%;
   height: 100vh;
 `;
 
-//export const Video = styled.video`
-// width: 100%;
-// height: 100%;
-//`;
-//position: relative;
+export const Video = styled.video`
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+`;
+
 export const Container = styled.div`
   max-width: 90vw;
   height: 98vh;
@@ -25,8 +30,10 @@ export const Container = styled.div`
     background: rgb(0, 0, 0, 0.1);
   }
 `;
-//position: absolute;
+
 export const Content = styled.div`
+  position: relative;
+  z-index: 1;
   width: 90%;
   height: 90%;
   top: 0;

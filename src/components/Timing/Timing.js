@@ -1,9 +1,10 @@
-import { Fon, Container, Content } from './Timing.styled';
-//import video from '../Video/video.mp4';
+import { Video, Fon, Container, Content } from './Timing.styled';
+import video from '../Video/video.mp4';
 
 export default function Timing() {
   return (
     <Fon>
+      <Video src={video} autoPlay loop muted />;
       <Container>
         <Content>
           <h2>Вінчання</h2>
@@ -15,4 +16,3 @@ export default function Timing() {
     </Fon>
   );
 }
-//<Video src={video} autoPlay loop muted />
