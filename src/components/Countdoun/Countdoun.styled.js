@@ -15,7 +15,7 @@ export const Foto = styled.div`
 export const Container = styled.div`
   max-width: 90vw;
   height: 98vh;
-
+  font-size: 40px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
