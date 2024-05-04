@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { Foto, Container } from './Countdoun.styled';
+import { Foto, Container, Timer, Period, Title } from './Countdoun.styled';
 
 export default function TimerUseNowStop() {
   const [now, setNow] = useState(Date.now());
@@ -39,7 +39,25 @@ export default function TimerUseNowStop() {
   return (
     <Foto>
       <Container>
-        day {days} hourse: {hours} minute {minutes} seconds {seconds}
+        <Title>До зустрічі через</Title>
+        <Timer>
+          <Period>
+            <span>{days}</span>
+            <span>днів</span>
+          </Period>
+          <Period>
+            <span>{hours}</span>
+            <span>годин</span>
+          </Period>
+          <Period>
+            <span>{minutes}</span>
+            <span>хвилин</span>
+          </Period>
+          <Period>
+            <span>{seconds}</span>
+            <span>секунд</span>
+          </Period>
+        </Timer>
       </Container>
     </Foto>
   );
