@@ -39,7 +39,6 @@ export default function TimerUseNowStop() {
   return (
     <Foto>
       <Container>
-        <Title>До зустрічі через</Title>
         <Timer>
           <Period>
             <span>{days}</span>
@@ -58,6 +57,7 @@ export default function TimerUseNowStop() {
             <span>секунд</span>
           </Period>
         </Timer>
+        <Title>... і ми будемо одружені</Title>
       </Container>
     </Foto>
   );

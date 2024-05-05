@@ -16,15 +16,15 @@ export const Foto = styled.div`
 export const Container = styled.div`
 padding-top: 30px;
   max-width: 90vw;
-  height: 98vh;
+  height: 100%;
   font-size: 40px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  background: rgb(0, 0, 0, 0.2);
+ 
   @media screen and (min-width: 600px) {
     max-width: 90vw;
-    background: rgb(0, 0, 0, 0.2);
+   
   
 `;
 
@@ -42,5 +42,5 @@ export const Period = styled.div`
 
 export const Title = styled.h2`
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 `;
