@@ -1,4 +1,4 @@
-import Timing from 'components/Timing/Timing';
+import Іnvitation from 'components/Іnvitation/Іnvitation';
 import { Fon } from './Postcard.styled';
 //import Countdoun from 'components/Countdoun/Countdoun';
 import Location from 'components/Location/Location';
@@ -9,8 +9,8 @@ export default function Postcard() {
   return (
     <Fon>
       <We />
+      <Іnvitation />
       <Location />
-      <Timing />
       <TimerUseNowStop />
     </Fon>
   );

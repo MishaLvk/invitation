@@ -1,4 +1,4 @@
-import { Container } from 'components/Postcard/Postcard.styled';
+import { Container } from './Location.styled';
 export default function Location() {
   return (
     <Container>

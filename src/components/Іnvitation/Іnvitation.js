@@ -4,26 +4,32 @@ import {
   Content,
   Calendar,
   Names,
-  Іnvitation,
+  Text,
   Line,
-} from './Timing.styled';
-
-export default function Timing() {
+  Constellation,
+  OurDate,
+  OurDateHeart,
+  Month,
+} from './Іnvitation.styled';
+import BigDipper from '../Images/Big Dipper.png';
+import Heart from '../Images/Heart.png';
+export default function Іnvitation() {
   return (
     <Fon>
       <Container>
+        <Constellation src={BigDipper} alt="Big Dipper" />
         <Content>
           <Names>Юнак та Леді!</Names>
           <Line></Line>
-          <Іnvitation>
+          <Text>
             <span>Є ПОДІЇ, ЯКІ ЗАЛИШАЮТЬСЯ В ПАМ'ЯТІ НА ВСЕ ЖИТТЯ.</span>
             <br />
             <span>
               І Є ЛЮДИ, З ЯКИМИ ХОЧЕТЬСЯ ЇХ РОЗДІЛИТИ. МИ З РАДІСТЮ ЗАПРОШУЄМО
               ВАС СТАТИ ЧАСТИНКОЮ НАШОЇ ОСОБЛИВОЇ ПОДІЇ!
             </span>
-          </Іnvitation>
-          <h2>Червень 2024</h2>
+          </Text>
+          <Month>Червень 2024</Month>
           <Calendar>
             <div>Пн</div>
             <div>Вт</div>
@@ -32,11 +38,11 @@ export default function Timing() {
             <div>Пт</div>
             <div>Сб</div>
             <div>Нд</div>
-            <div>0</div>
-            <div>0</div>
-            <div>0</div>
-            <div>0</div>
-            <div>0</div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
+            <div> </div>
             <div>1</div>
             <div>2</div>
             <div>3</div>
@@ -66,7 +72,10 @@ export default function Timing() {
             <div>27</div>
             <div>28</div>
             <div>29</div>
-            <div>30</div>
+            <OurDate>
+              <OurDateHeart src={Heart} alt="" />
+              30
+            </OurDate>
           </Calendar>
         </Content>
       </Container>

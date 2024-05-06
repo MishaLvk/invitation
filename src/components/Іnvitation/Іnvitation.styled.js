@@ -7,12 +7,12 @@ export const Fon = styled.div`
   box-sizing: border-box;
   color: white;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 `;
 
 export const Container = styled.div`
   max-width: 90vw;
-  height: 98vh;
+  height: 100%;
 
   margin-top: 0;
   margin-left: auto;
@@ -25,7 +25,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: block;
-  padding-top: 30px;
+  margin-top: 20px;
 `;
 
 export const Calendar = styled.div`
@@ -49,7 +49,7 @@ export const Names = styled.span`
   text-align: center;
 `;
 
-export const Іnvitation = styled.span`
+export const Text = styled.div`
   color: black;
   font-size: 1em;
   font-weight: 500;
@@ -65,4 +65,31 @@ export const Line = styled.div`
   height: 2px;
   margin-left: auto;
   margin-right: auto;
+`;
+
+export const Constellation = styled.img`
+  display: block;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
+export const OurDate = styled.div`
+  color: rgb(176, 109, 32);
+  font-weight: 500;
+  display: block;
+  position: relative;
+`;
+export const OurDateHeart = styled.img`
+  position: absolute;
+  width: 50px;
+  top: -35%;
+  left: -60%;
+`;
+
+export const Month = styled.h2`
+  color: rgb(176, 109, 32);
+
+  text-align: end;
 `;
