@@ -14,7 +14,7 @@ export const Foto = styled.div`
 `;
 
 export const Container = styled.div`
-padding-top: 30px;
+padding-top: 50px;
   max-width: 90vw;
   
   font-size: 40px;

@@ -4,6 +4,7 @@ import { Fon } from './Postcard.styled';
 import Location from 'components/Location/Location';
 import We from 'components/We/We';
 import TimerUseNowStop from 'components/Countdoun/Countdoun';
+import WeddingStyle from 'components/WeddingStyle/WeddingStyle';
 
 export default function Postcard() {
   return (
@@ -11,6 +12,7 @@ export default function Postcard() {
       <We />
       <Іnvitation />
       <Location />
+      <WeddingStyle />
       <TimerUseNowStop />
     </Fon>
   );
