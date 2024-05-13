@@ -2,17 +2,17 @@ import {
   Container,
   StyleBox,
   Title,
-  MistyRose,
-  Pink,
-  Moccasin,
-  NavajoWhite,
-  LightGray,
-  GhostWhite,
-  Lavender,
-  LightBlue,
+  Palette,
+  Image,
 } from './WeddingStyle.styled';
-//import BigDipper from '../Images/Big Dipper.png';
-//import Heart from '../Images/Heart.png';
+import pink from '../Images/Pink.png';
+import mistyRose from '../Images/MistyRose.png';
+import moccasin from '../Images/Moccasin.png';
+import navajoWhite from '../Images/NavajoWhite.png';
+import lightGray from '../Images/LightBlue.png';
+import ghostWhite from '../Images/GhostWhite.png';
+import lavender from '../Images/Lavender.png';
+import lightBlue from '../Images/LightBlue.png';
 export default function WeddingStyle() {
   return (
     <div>
@@ -22,16 +22,34 @@ export default function WeddingStyle() {
           якщо чоловіки оберуть білі сорочки, а жінки дотримаються нашої
           кольорової гами
         </Title>
-        <StyleBox>
-          <Pink></Pink>
-          <MistyRose></MistyRose>
-          <Moccasin></Moccasin>
-          <NavajoWhite></NavajoWhite>
-          <LightGray></LightGray>
-          <GhostWhite></GhostWhite>
-          <Lavender></Lavender>
-          <LightBlue></LightBlue>
-        </StyleBox>
+        <div>
+          <StyleBox>
+            <Palette>
+              <Image src={navajoWhite} alt="navajoWhite" />
+            </Palette>
+            <Palette>
+              <Image src={pink} alt="pink" />
+            </Palette>
+            <Palette>
+              <Image src={mistyRose} alt="mistyRose" />
+            </Palette>
+            <Palette>
+              <Image src={moccasin} alt="moccasin" />
+            </Palette>
+            <Palette>
+              <Image src={lightBlue} alt="lightBlue" />
+            </Palette>
+            <Palette>
+              <Image src={lightGray} alt="lightGray" />
+            </Palette>
+            <Palette>
+              <Image src={lavender} alt="lavender" />
+            </Palette>
+            <Palette>
+              <Image src={ghostWhite} alt="ghostWhite" />
+            </Palette>
+          </StyleBox>
+        </div>
       </Container>
     </div>
   );
