@@ -9,7 +9,7 @@ import pink from '../Images/Pink.png';
 import mistyRose from '../Images/MistyRose.png';
 import moccasin from '../Images/Moccasin.png';
 import navajoWhite from '../Images/NavajoWhite.png';
-import lightGray from '../Images/LightBlue.png';
+import lightGray from '../Images/LightGray.png';
 import ghostWhite from '../Images/GhostWhite.png';
 import lavender from '../Images/Lavender.png';
 import lightBlue from '../Images/LightBlue.png';
@@ -25,9 +25,6 @@ export default function WeddingStyle() {
         <div>
           <StyleBox>
             <Palette>
-              <Image src={navajoWhite} alt="navajoWhite" />
-            </Palette>
-            <Palette>
               <Image src={pink} alt="pink" />
             </Palette>
             <Palette>
@@ -35,9 +32,9 @@ export default function WeddingStyle() {
             </Palette>
             <Palette>
               <Image src={moccasin} alt="moccasin" />
-            </Palette>
+            </Palette>{' '}
             <Palette>
-              <Image src={lightBlue} alt="lightBlue" />
+              <Image src={navajoWhite} alt="navajoWhite" />
             </Palette>
             <Palette>
               <Image src={lightGray} alt="lightGray" />
@@ -47,6 +44,9 @@ export default function WeddingStyle() {
             </Palette>
             <Palette>
               <Image src={ghostWhite} alt="ghostWhite" />
+            </Palette>
+            <Palette>
+              <Image src={lightBlue} alt="lightBlue" />
             </Palette>
           </StyleBox>
         </div>
