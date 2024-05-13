@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/invitation/static/css/main.e6c13ad2.css",
-    "main.js": "/invitation/static/js/main.85a9d07b.js",
+    "main.js": "/invitation/static/js/main.6d4a6648.js",
     "static/media/1-81.jpg": "/invitation/static/media/1-81.992ad01ba9f115387dd0.jpg",
     "static/media/1-116.jpg": "/invitation/static/media/1-116.e88d28d6d8a032fdbf48.jpg",
     "static/media/Big Dipper.png": "/invitation/static/media/Big Dipper.7a334e999ed3cc43a3ed.png",
     "static/media/Heart.png": "/invitation/static/media/Heart.5430669ab0a9f39d82d2.png",
-    "static/media/Lavender.png": "/invitation/static/media/Lavender.5641e3b976166171528b.png",
+    "static/media/LightBlue.png": "/invitation/static/media/LightBlue.fdab5e687e3e92b80e3e.png",
+    "static/media/Lavender.png": "/invitation/static/media/Lavender.ec91085044a0c57d0773.png",
+    "static/media/LightGray.png": "/invitation/static/media/LightGray.be383a8d371a5043f810.png",
+    "static/media/Moccasin.png": "/invitation/static/media/Moccasin.bfaaceb97a9b073500e2.png",
+    "static/media/GhostWhite.png": "/invitation/static/media/GhostWhite.427e21abc0228b97aa12.png",
     "static/media/Pink.png": "/invitation/static/media/Pink.68ff1fe0c203591d20bb.png",
-    "static/media/GhostWhite.png": "/invitation/static/media/GhostWhite.cec1f8c9f98b6faedbb5.png",
-    "static/media/NavajoWhite.png": "/invitation/static/media/NavajoWhite.75893687c2964db50dcf.png",
+    "static/media/NavajoWhite.png": "/invitation/static/media/NavajoWhite.48ae3df3cf73b0196043.png",
     "index.html": "/invitation/index.html",
     "main.e6c13ad2.css.map": "/invitation/static/css/main.e6c13ad2.css.map",
-    "main.85a9d07b.js.map": "/invitation/static/js/main.85a9d07b.js.map"
+    "main.6d4a6648.js.map": "/invitation/static/js/main.6d4a6648.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.85a9d07b.js"
+    "static/js/main.6d4a6648.js"
   ]
 }
