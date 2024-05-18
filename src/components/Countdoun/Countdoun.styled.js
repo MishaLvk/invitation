@@ -43,6 +43,7 @@ export const Period = styled.div`
 export const Title = styled.h2`
   text-align: center;
   font-size: 3em;
+  margin: 0;
   @media screen and (min-width: 600px) {
     font-size: 5em;
   }
