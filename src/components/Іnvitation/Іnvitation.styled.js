@@ -42,9 +42,12 @@ export const Calendar = styled.div`
 `;
 
 export const Names = styled.span`
+  font-family: 'Great Vibes', cursive;
+  font-weight: 600;
+  font-style: normal;
   color: black;
   font-size: 2em;
-  font-weight: 500;
+  margin: 0;
   display: block;
   text-align: center;
 `;
@@ -89,6 +92,11 @@ export const OurDateHeart = styled.img`
 `;
 
 export const Month = styled.h2`
+  font-family: 'Great Vibes', cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  margin: 0;
   color: rgb(176, 109, 32);
 
   text-align: end;

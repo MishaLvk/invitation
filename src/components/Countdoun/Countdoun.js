@@ -6,7 +6,7 @@ export default function TimerUseNowStop() {
   const [now, setNow] = useState(Date.now());
 
   const interval = 1000;
-  const countDown = 1719741600000 - now;
+  const countDown = 1719738000000 - now;
 
   const isCountEnd = countDown === 0;
   useEffect(() => {

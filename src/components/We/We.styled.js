@@ -29,5 +29,12 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.h1`
+  font-family: 'Great Vibes', cursive;
+  font-weight: 700;
+  font-size: 80pt;
+  font-style: normal;
   margin: 0;
+  @media screen and (min-width: 600px) {
+    font-size: 150pt;
+  }
 `;

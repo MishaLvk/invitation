@@ -4,7 +4,7 @@ export default function Timing() {
   return (
     <Fon>
       <Container>
-        <Logo>M|M</Logo>
+        <Logo>ММ</Logo>
       </Container>
     </Fon>
   );

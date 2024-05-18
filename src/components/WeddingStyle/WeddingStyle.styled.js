@@ -30,8 +30,12 @@ export const StyleBox = styled.div`
 `;
 
 export const Title = styled.span`
+  font-family: 'Great Vibes', cursive;
+  font-weight: 600;
+  font-style: normal;
+
   color: black;
-  font-size: 1.2em;
+  font-size: 1.9em;
   font-weight: 500;
   display: block;
   text-align: center;
