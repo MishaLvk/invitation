@@ -53,6 +53,7 @@ export const Names = styled.span`
 `;
 
 export const Text = styled.div`
+  font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
   color: black;
   font-size: 1em;
   font-weight: 500;

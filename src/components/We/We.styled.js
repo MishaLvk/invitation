@@ -15,6 +15,7 @@ export const Fon = styled.div`
 export const Container = styled.div`
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   max-width: 90vw;
   height: 98vh;
@@ -28,13 +29,25 @@ export const Container = styled.div`
   }
 `;
 
-export const Logo = styled.h1`
-  font-family: 'Great Vibes', cursive;
-  font-weight: 700;
-  font-size: 80pt;
+export const Logo = styled.span`
+  font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
+  font-weight: 500;
+  font-size: 60pt;
   font-style: normal;
   margin: 0;
   @media screen and (min-width: 600px) {
-    font-size: 150pt;
+    font-size: 60pt;
   }
+`;
+
+export const Title = styled.span`
+  font-family: 'EB Garamond', serif;
+  font-size: 3em;
+  font-weight: 500;
+  font-style: normal;
+
+  color: white;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
 `;

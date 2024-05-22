@@ -14,7 +14,7 @@ export const Foto = styled.div`
 `;
 
 export const Container = styled.div`
-  padding-top: 50px;
+  padding-top: 90px;
   max-width: 90vw;
   font-family: 'Great Vibes', cursive;
   font-weight: 700;
