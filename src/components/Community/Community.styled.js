@@ -28,19 +28,6 @@ export const Content = styled.div`
   margin-top: 20px;
 `;
 
-export const Calendar = styled.div`
-  max-width: 90%;
-  font-size: 1.2em;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  margin-left: auto;
-  margin-right: auto;
-  justify-items: end;
-  letter-spacing: 0.1em;
-  font-variant: small-caps;
-  text-align: center;
-`;
-
 export const Names = styled.span`
   font-family: 'Great Vibes', cursive;
   font-weight: 600;
@@ -71,9 +58,20 @@ export const Line = styled.div`
   margin-right: auto;
 `;
 
+export const BoxFoto = styled.div`
+  display: block;
+  width: 30vw;
+  height: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
 export const Constellation = styled.img`
   display: block;
-  width: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: cover;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -124,4 +122,5 @@ export const TelegramLink = styled.a`
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 `;

@@ -4,17 +4,20 @@ import {
   Content,
   Text,
   Line,
+  BoxFoto,
   Constellation,
   TelegramIcon,
   TelegramLink,
 } from './Community.styled';
-import BigDipper from '../Images/Big Dipper.png';
+import sakura from '../Images/sakura.jpg';
 import iconTelegram from '../Images/telegram-png.png';
 export default function Community() {
   return (
     <Fon>
       <Container>
-        <Constellation src={BigDipper} alt="Big Dipper" />
+        <BoxFoto>
+          <Constellation src={sakura} alt="sakura" />
+        </BoxFoto>
         <Content>
           <Line></Line>
           <Text>
