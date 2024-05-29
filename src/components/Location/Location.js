@@ -6,17 +6,29 @@ import {
   BanquetPoint,
   WeddingTime,
   BanquetTime,
+  ChurchContainer,
+  ChurchIcon,
+  ChurchText,
 } from './Location.styled';
+import iconChurch from '../Images/church.png';
+
 export default function Location() {
   return (
     <Container>
       <Title>Наш день</Title>
       <PointContainer>
         <WeddingPoint>
-          <WeddingTime>12:00</WeddingTime>
-          <span>ЦЕРЕМОНІЯ ВІНЧАННЯ</span>
-          <span>Храм свв. апп. Петра і Павла</span>
-          <span>Переглянути на карті</span>
+          <ChurchContainer>
+            <ChurchIcon src={iconChurch} alt="icon" />
+          </ChurchContainer>
+          <ChurchText>
+            <h3>ЦЕРЕМОНІЯ ВІНЧАННЯ</h3>
+            <WeddingTime>12:00</WeddingTime>
+            <br />
+            <span>Храм св. ап. Петра і Павла</span>
+            <br />
+            <span>Переглянути на карті</span>
+          </ChurchText>
         </WeddingPoint>
         <BanquetPoint>
           <BanquetTime>14:00</BanquetTime>

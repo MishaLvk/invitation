@@ -4,7 +4,7 @@ export const Container = styled.div`
 padding-top: 30px;
   max-width: 90vw;
   
-  font-size: 40px;
+  
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -26,7 +26,24 @@ export const PointContainer = styled.div`
 
 export const WeddingPoint = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+`;
+
+export const ChurchContainer = styled.div`
+  display: block;
+  width: 120px;
+  height: 120px;
+`;
+export const ChurchIcon = styled.img`
+  width: 100%;
+  height: 100%;
+`;
+
+export const ChurchText = styled.div`
+  display: block;
+  width: 50%;
+  font-size: 1.3em;
 `;
 
 export const BanquetPoint = styled.div`
@@ -35,13 +52,13 @@ export const BanquetPoint = styled.div`
 `;
 
 export const WeddingTime = styled.span`
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 500;
   text-align: end;
 `;
 
 export const BanquetTime = styled.span`
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 500;
   text-align: end;
 `;
