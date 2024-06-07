@@ -4,8 +4,7 @@ export const Container = styled.div`
   display: block;
   max-width: 90vw;
   height: 100%;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
 
