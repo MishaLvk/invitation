@@ -18,8 +18,9 @@ export const Title = styled.h2`
   font-family: 'Great Vibes', cursive;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 0;
+  margin-bottom: 20px;
   text-align: start;
 `;
 
