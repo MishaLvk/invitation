@@ -41,9 +41,18 @@ export const ChurchIcon = styled.img`
 `;
 
 export const ChurchText = styled.div`
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 50%;
   font-size: 1.3em;
+`;
+
+export const PointTitle = styled.h3`
+  width: 30vw;
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
 `;
 
 export const BanquetPoint = styled.div`
@@ -61,4 +70,29 @@ export const BanquetTime = styled.span`
   font-size: 1em;
   font-weight: 500;
   text-align: end;
+`;
+
+export const Ceremony = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+`;
+
+export const ChampaneContainer = styled.div`
+  display: block;
+  width: 120px;
+  height: 120px;
+`;
+
+export const ChampagneIcon = styled.img`
+  width: 100%;
+  height: 100%;
+`;
+
+export const ChampaneText = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  font-size: 1.3em;
 `;

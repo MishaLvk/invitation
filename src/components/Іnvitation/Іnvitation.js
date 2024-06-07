@@ -6,6 +6,7 @@ import {
   Names,
   Text,
   Line,
+  ConstellationFon,
   Constellation,
   OurDate,
   OurDateHeart,
@@ -16,8 +17,10 @@ import Heart from '../Images/Heart.png';
 export default function Іnvitation() {
   return (
     <Fon>
-      <Container>
+      <ConstellationFon>
         <Constellation src={BigDipper} alt="Big Dipper" />
+      </ConstellationFon>
+      <Container>
         <Content>
           <Names>Юнак та Леді!</Names>
           <Line></Line>

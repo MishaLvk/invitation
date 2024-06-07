@@ -9,8 +9,14 @@ import {
   ChurchContainer,
   ChurchIcon,
   ChurchText,
+  PointTitle,
+  Ceremony,
+  ChampaneContainer,
+  ChampagneIcon,
+  ChampaneText,
 } from './Location.styled';
 import iconChurch from '../Images/church.png';
+import iconChampagne from '../Images/champagne.png';
 
 export default function Location() {
   return (
@@ -22,14 +28,23 @@ export default function Location() {
             <ChurchIcon src={iconChurch} alt="icon" />
           </ChurchContainer>
           <ChurchText>
-            <h3>ЦЕРЕМОНІЯ ВІНЧАННЯ</h3>
+            <PointTitle>ЦЕРЕМОНІЯ ВІНЧАННЯ</PointTitle>
             <WeddingTime>12:00</WeddingTime>
-            <br />
+
             <span>Храм св. ап. Петра і Павла</span>
-            <br />
+
             <span>Переглянути на карті</span>
           </ChurchText>
         </WeddingPoint>
+        <Ceremony>
+          <ChampaneText>
+            <PointTitle>ЗБІР ГОСТЕЙ НА ФУРШЕТ</PointTitle>
+            <WeddingTime>13:45</WeddingTime>
+          </ChampaneText>
+          <ChampaneContainer>
+            <ChampagneIcon src={iconChampagne} alt="icon" />
+          </ChampaneContainer>
+        </Ceremony>
         <BanquetPoint>
           <BanquetTime>14:00</BanquetTime>
           <span>СВЯТКОВИЙ БАНКЕТ</span>

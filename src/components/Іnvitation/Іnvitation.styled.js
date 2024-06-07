@@ -71,10 +71,20 @@ export const Line = styled.div`
   margin-right: auto;
 `;
 
+export const ConstellationFon = styled.div`
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #282369 10%, #e1dfdb 100%);
+`;
+
 export const Constellation = styled.img`
   display: block;
-  width: 50%;
-  margin-top: 30px;
+  width: 65%;
+
   margin-left: auto;
   margin-right: auto;
 `;
