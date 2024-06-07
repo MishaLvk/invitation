@@ -28,6 +28,7 @@ export const WeddingPoint = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 20px;
 `;
 
 export const ChurchContainer = styled.div`
@@ -44,8 +45,7 @@ export const Text = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  font-size: 1.3em;
+  width: 40%;
 `;
 
 export const TextPoint = styled.p`
@@ -66,13 +66,14 @@ export const PointTitle = styled.h3`
   width: 30vw;
   margin: 0;
   text-align: center;
-  font-size: 1em;
+  font-size: 0.9em;
 `;
 
 export const BanquetPoint = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-bottom: 20px;
 `;
 
 export const WeddingTime = styled.span`
@@ -85,11 +86,13 @@ export const Buffet = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-bottom: 20px;
 `;
 export const Ceremony = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-bottom: 20px;
 `;
 
 export const ChampaneContainer = styled.div`
