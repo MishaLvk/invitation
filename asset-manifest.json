@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/invitation/static/css/main.e6c13ad2.css",
-    "main.js": "/invitation/static/js/main.cc2f7f95.js",
+    "main.js": "/invitation/static/js/main.cc12a11d.js",
     "static/media/sakura.jpg": "/invitation/static/media/sakura.83855bc0ea0bb78f0f7f.jpg",
     "static/media/1-81.jpg": "/invitation/static/media/1-81.992ad01ba9f115387dd0.jpg",
     "static/media/1-116.jpg": "/invitation/static/media/1-116.e88d28d6d8a032fdbf48.jpg",
     "static/media/Big Dipper.png": "/invitation/static/media/Big Dipper.7a334e999ed3cc43a3ed.png",
     "static/media/telegram-png.png": "/invitation/static/media/telegram-png.aecc25dbc0b78c181bea.png",
     "static/media/Heart.png": "/invitation/static/media/Heart.5430669ab0a9f39d82d2.png",
+    "static/media/champagne.png": "/invitation/static/media/champagne.d6320d1ca3e2ea0093a7.png",
     "static/media/LightBlue.png": "/invitation/static/media/LightBlue.fdab5e687e3e92b80e3e.png",
     "static/media/church.png": "/invitation/static/media/church.3f2c7349811a3e4dc6bf.png",
     "static/media/Lavender.png": "/invitation/static/media/Lavender.ec91085044a0c57d0773.png",
@@ -18,10 +19,10 @@
     "static/media/NavajoWhite.png": "/invitation/static/media/NavajoWhite.48ae3df3cf73b0196043.png",
     "index.html": "/invitation/index.html",
     "main.e6c13ad2.css.map": "/invitation/static/css/main.e6c13ad2.css.map",
-    "main.cc2f7f95.js.map": "/invitation/static/js/main.cc2f7f95.js.map"
+    "main.cc12a11d.js.map": "/invitation/static/js/main.cc12a11d.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.cc2f7f95.js"
+    "static/js/main.cc12a11d.js"
   ]
 }
