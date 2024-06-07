@@ -79,6 +79,9 @@ export const ConstellationFon = styled.div`
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom, #282369 10%, #e1dfdb 100%);
+  @media screen and (min-width: 600px) {
+    height: 75vh;
+  }
 `;
 
 export const Constellation = styled.img`
