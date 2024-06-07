@@ -43,7 +43,11 @@ export default function Location() {
             <PointTitle>ЦЕРЕМОНІЯ ВІНЧАННЯ</PointTitle>
             <TextPoint>Храм св. ап. Петра і Павла</TextPoint>
 
-            <TextLocation href="https://maps.app.goo.gl/qRmjTwHpG8kTFLTS8">
+            <TextLocation
+              href="https://maps.app.goo.gl/qRmjTwHpG8kTFLTS8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Переглянути на карті
             </TextLocation>
           </Text>
