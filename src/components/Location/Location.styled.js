@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-padding-top: 30px;
+
   max-width: 90vw;
   
   
@@ -15,8 +15,11 @@ padding-top: 30px;
 `;
 
 export const Title = styled.h2`
-  color: rgb(176, 109, 32);
-  font-size: 0.7em;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+  margin: 0;
   text-align: start;
 `;
 
@@ -27,8 +30,8 @@ export const PointContainer = styled.div`
 export const WeddingPoint = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  justify-content: flex-end;
+  margin-bottom: 25px;
 `;
 
 export const ChurchContainer = styled.div`
@@ -45,6 +48,7 @@ export const Text = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 40%;
 `;
 
@@ -73,12 +77,16 @@ export const BanquetPoint = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 `;
 
 export const WeddingTime = styled.span`
-  font-size: 1em;
-  font-weight: 500;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+  margin: 0;
+  color: rgb(176, 109, 32);
   text-align: end;
 `;
 
@@ -86,13 +94,13 @@ export const Buffet = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 `;
 export const Ceremony = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 `;
 
 export const ChampaneContainer = styled.div`
@@ -128,7 +136,7 @@ export const BanquetIcon = styled.img`
 export const CakePoint = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 `;
 
 export const CakeContainer = styled.div`

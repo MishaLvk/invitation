@@ -17,7 +17,7 @@ export const Container = styled.div`
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-
+  margin-bottom: 70px;
   @media screen and (min-width: 600px) {
     max-width: 90vw;
   }
@@ -60,7 +60,7 @@ export const Text = styled.div`
   display: block;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 `;
 
 export const Line = styled.div`
@@ -112,6 +112,5 @@ export const Month = styled.h2`
   font-size: 2em;
   margin: 0;
   color: rgb(176, 109, 32);
-
   text-align: end;
 `;
