@@ -78,7 +78,7 @@ export const ConstellationFon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, #282369 10%, #e1dfdb 100%);
+  background: linear-gradient(to bottom, #3a2b28 -5%, #e1dfdb 100%);
   @media screen and (min-width: 600px) {
     height: 75vh;
   }
