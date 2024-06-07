@@ -14,7 +14,7 @@ export const Foto = styled.div`
 `;
 
 export const Container = styled.div`
-  padding-top: 90px;
+  padding-top: 70px;
   max-width: 90vw;
   font-family: 'Great Vibes', cursive;
   font-weight: 700;
@@ -44,9 +44,10 @@ export const Title = styled.h2`
   text-align: center;
   font-size: 3em;
   margin: 0;
-  margin-bottom: 20vw;
+  margin-bottom: 15vh;
   @media screen and (min-width: 600px) {
-    font-size: 5em;
+    font-size: 4em;
+    margin-bottom: 15vh;
   }
 `;
 
