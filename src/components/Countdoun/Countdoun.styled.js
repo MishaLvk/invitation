@@ -44,10 +44,10 @@ export const Title = styled.h2`
   text-align: center;
   font-size: 3em;
   margin: 0;
-  margin-bottom: 15vh;
+  margin-bottom: 35vh;
   @media screen and (min-width: 600px) {
     font-size: 4em;
-    margin-bottom: 15vh;
+    margin-bottom: 30vh;
   }
 `;
 
