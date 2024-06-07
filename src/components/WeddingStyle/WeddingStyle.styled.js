@@ -16,7 +16,7 @@ export const Container = styled.div`
 
 export const StyleBox = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -43,7 +43,7 @@ export const Title = styled.span`
 
 export const Palette = styled.div`
   display: block;
-  width: 15vw;
+  width: 10vw;
   
 @media screen and (min-width: 600px) {
     width: auto;

@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+
 import {
   Fon,
   Container,
@@ -14,7 +17,43 @@ import {
 } from './Іnvitation.styled';
 import BigDipper from '../Images/Big Dipper.png';
 import Heart from '../Images/Heart.png';
+import guests from '../Guests.json';
 export default function Іnvitation() {
+  const { key } = useParams();
+  const [guestData, setGuestData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchGuestData = async () => {
+      try {
+        const guest = guests[key];
+        if (!guest) {
+          throw new Error('Guest not found');
+        }
+        setGuestData(guest);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchGuestData();
+  }, [key]);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
+  if (!guestData) {
+    return <div>No guest data found</div>;
+  }
+
   return (
     <Fon>
       <ConstellationFon>
@@ -22,7 +61,7 @@ export default function Іnvitation() {
       </ConstellationFon>
       <Container>
         <Content>
-          <Names>Юнак та Леді!</Names>
+          <Names> {guestData.name}!</Names>
           <Line></Line>
           <Text>
             <p>

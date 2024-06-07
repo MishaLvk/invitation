@@ -62,17 +62,17 @@ export const BoxFoto = styled.div`
   display: block;
   width: 30vw;
   height: 30vw;
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 `;
 
 export const Constellation = styled.img`
   display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+  width: 120%;
+
   background-size: cover;
-  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 `;

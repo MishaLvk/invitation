@@ -9,14 +9,14 @@ import {
   TelegramIcon,
   TelegramLink,
 } from './Community.styled';
-import sakura from '../Images/sakura.jpg';
+import we from '../Images/photo_we.jpg';
 import iconTelegram from '../Images/telegram-png.png';
 export default function Community() {
   return (
     <Fon>
       <Container>
         <BoxFoto>
-          <Constellation src={sakura} alt="sakura" />
+          <Constellation src={we} alt="we" />
         </BoxFoto>
         <Content>
           <Line></Line>
