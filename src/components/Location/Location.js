@@ -57,7 +57,13 @@ export default function Location() {
             <WeddingTime>13:45</WeddingTime>
             <PointTitle>ЗБІР ГОСТЕЙ НА ФУРШЕТ</PointTitle>
             <TextPoint>Stavky Country Club</TextPoint>
-            <TextLocation>Переглянути на карті</TextLocation>
+            <TextLocation
+              href="https://maps.app.goo.gl/DQgYJR9hhScZAc4ZA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Переглянути на карті
+            </TextLocation>
           </Text>
           <ChampaneContainer>
             <ChampagneIcon src={iconChampagne} alt="icon" />

@@ -8,6 +8,7 @@ export const Container = styled.div`
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
  
   @media screen and (min-width: 600px) {
     max-width: 90vw;
@@ -85,7 +86,7 @@ export const WeddingTime = styled.span`
   font-family: 'Great Vibes', cursive;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 0;
   color: rgb(176, 109, 32);
   text-align: end;
