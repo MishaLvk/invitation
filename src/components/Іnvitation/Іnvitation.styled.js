@@ -112,5 +112,5 @@ export const Month = styled.h2`
   font-size: 2em;
   margin: 0;
   color: rgb(176, 109, 32);
-  text-align: end;
+  text-align: start;
 `;
