@@ -102,7 +102,7 @@ export const OurDateHeart = styled.img`
   position: absolute;
   width: 50px;
   top: -35%;
-  left: -55%;
+  left: -50%;
 `;
 
 export const Month = styled.h2`

@@ -44,7 +44,17 @@ export const Title = styled.h2`
   text-align: center;
   font-size: 3em;
   margin: 0;
+  margin-bottom: 20vw;
   @media screen and (min-width: 600px) {
     font-size: 5em;
   }
+`;
+
+export const CountdounText = styled.p`
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
 `;
