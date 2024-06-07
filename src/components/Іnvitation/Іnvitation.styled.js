@@ -73,7 +73,7 @@ export const Line = styled.div`
 
 export const ConstellationFon = styled.div`
   width: 100%;
-  height: 20vh;
+  height: 22vh;
   position: relative;
   display: flex;
   align-items: center;
