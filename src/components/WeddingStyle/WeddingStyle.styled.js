@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 export const StyleBox = styled.div`
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;

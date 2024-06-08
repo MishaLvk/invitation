@@ -85,10 +85,6 @@ export default function TimerUseNowStop() {
           </Period>
         </Timer>
         <Title>... і ми будемо одружені</Title>
-        <CountdounText>
-          Розділивши з нами святкування нашого кохання, Ви стаєте його частиною.
-          Для нас це надзвичайно цінно.
-        </CountdounText>
       </Container>
     </Foto>
   );

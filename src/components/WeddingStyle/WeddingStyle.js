@@ -34,9 +34,6 @@ export default function WeddingStyle() {
               <Image src={moccasin} alt="moccasin" />
             </Palette>{' '}
             <Palette>
-              <Image src={navajoWhite} alt="navajoWhite" />
-            </Palette>
-            <Palette>
               <Image src={lightGray} alt="lightGray" />
             </Palette>
             <Palette>
