@@ -43,8 +43,6 @@ export const ChurchContainer = styled.div`
 `;
 export const ChurchIcon = styled.img`
   width: 100%;
-
-  opacity: 0.7;
 `;
 
 export const Text = styled.div`
@@ -65,6 +63,7 @@ export const TextPoint = styled.p`
 `;
 
 export const TextLocation = styled.a`
+  text-decoration: none;
   font-size: 0.5em;
   text-align: center;
   margin: 0;
@@ -138,7 +137,6 @@ export const BanquetContainer = styled.div`
 
 export const BanquetIcon = styled.img`
   width: 100%;
-  opacity: 0.7;
 `;
 
 export const CakePoint = styled.div`
@@ -154,5 +152,4 @@ export const CakeContainer = styled.div`
 
 export const CakeIcon = styled.img`
   width: 100%;
-  opacity: 0.7;
 `;

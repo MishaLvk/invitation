@@ -14,7 +14,7 @@ export const Fon = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
+
   flex-direction: column;
   align-items: center;
   max-width: 90vw;
@@ -23,45 +23,64 @@ export const Container = styled.div`
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-
+  justify-content: flex-start;
+  padding-top: 35vh;
   @media screen and (min-width: 600px) {
-    max-width: 90vw;
+    max-width: 44vw;
+    padding-top: 14vh;
   }
 `;
 
-export const Logo = styled.span`
-  font-family: 'Great Vibes', cursive;
-  font-weight: 400;
-
-  font-size: 80pt;
-  font-style: normal;
-  margin: 0;
-  margin-bottom: 70px;
-  @media screen and (min-width: 600px) {
-    font-size: 60pt;
-  }
-`;
-export const TitleTa = styled.div`
+export const LogoContainer = styled.div`
   display: block;
-  width: 100%;
-  height: 25px;
-  font-family: 'Great Vibes', cursive;
-  font-size: 3em;
-  font-weight: 400;
-  font-style: normal;
-
-  color: white;
-  text-align: end;
-  margin-top: -30px;
+  position: relative;
+  width: 80vw;
+  height: 80vw;
 `;
+
+export const LogoMisha = styled.div`
+  font-family: 'Great Vibes', cursive;
+  font-size: 5em;
+  font-weight: 500;
+  font-style: normal;
+  width: 100%;
+  height: 8vh;
+  color: white;
+
+  display: block;
+  text-align: start;
+
+  @media screen and (min-width: 600px) {
+    height: 17vh;
+  }
+`;
+export const LogoMarta = styled.div`
+  font-family: 'Great Vibes', cursive;
+  font-size: 5em;
+  font-weight: 500;
+  font-style: normal;
+  width: 100%;
+  height: 8vh;
+  color: white;
+
+  display: block;
+  text-align: end;
+  @media screen and (min-width: 600px) {
+    height: 17vh;
+  }
+`;
+
 export const Title = styled.div`
   font-family: 'Great Vibes', cursive;
-  font-size: 3.5em;
+  font-size: 2em;
   font-weight: 700;
   font-style: normal;
-
+  height: 3vh;
   color: white;
 
   display: block;
   text-align: center;
+  @media screen and (min-width: 600px) {
+    height: 4vh;
+  }
 `;

@@ -1,11 +1,11 @@
-import { Fon, Container, Logo, Title, TitleTa } from './We.styled';
+import { Fon, Container, LogoMisha, LogoMarta, Title } from './We.styled';
 
 export default function Timing() {
   return (
     <Fon>
       <Container>
-        <Logo>М М</Logo>
-        <Title>Михайло</Title> <TitleTa>та</TitleTa> <Title>Марта</Title>
+        <LogoMisha>Михайло</LogoMisha> <Title>та</Title>
+        <LogoMarta>Марта</LogoMarta>
       </Container>
     </Fon>
   );
