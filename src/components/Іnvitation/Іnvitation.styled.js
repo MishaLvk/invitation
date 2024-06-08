@@ -39,6 +39,7 @@ export const Calendar = styled.div`
   letter-spacing: 0.1em;
   font-variant: small-caps;
   text-align: center;
+  color: #463e27;
 `;
 
 export const NamesTitle = styled.span`
@@ -86,7 +87,7 @@ export const TextBottom = styled.div`
 `;
 
 export const Line = styled.div`
-  background-color: white;
+  background-color: #463e27;
   width: 80%;
   height: 2px;
   margin-left: auto;

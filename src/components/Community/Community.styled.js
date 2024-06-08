@@ -51,7 +51,7 @@ export const Text = styled.div`
 `;
 
 export const Line = styled.div`
-  background-color: white;
+  background-color: #463e27;
   width: 80%;
   height: 2px;
   margin-left: auto;
