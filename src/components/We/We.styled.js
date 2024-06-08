@@ -45,7 +45,7 @@ export const LogoMisha = styled.div`
   font-style: normal;
   width: 100%;
   height: 8vh;
-  color: #f7f1e5;
+  color: #fffafa;
 
   display: block;
   text-align: start;
@@ -61,7 +61,7 @@ export const LogoMarta = styled.div`
   font-style: normal;
   width: 100%;
   height: 8vh;
-  color: #f7f1e5;
+  color: #fffafa;
 
   display: block;
   text-align: end;
@@ -76,7 +76,7 @@ export const Title = styled.div`
   font-weight: 700;
   font-style: normal;
   height: 3vh;
-  color: #f7f1e5;
+  color: #fffafa;
 
   display: block;
   text-align: center;

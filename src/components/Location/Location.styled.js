@@ -23,6 +23,7 @@ export const Title = styled.h2`
   margin: 0;
   margin-bottom: 20px;
   text-align: start;
+  color: #37451f;
 `;
 
 export const PointContainer = styled.div`
@@ -54,16 +55,16 @@ export const Text = styled.div`
 `;
 
 export const TextPoint = styled.p`
-  color: rgb(176, 109, 32);
+  font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
   font-size: 0.8em;
   font-weight: 500;
   text-align: center;
   margin: 0;
-  color: #293622;
 `;
 
 export const TextLocation = styled.a`
   text-decoration: none;
+  font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
   font-size: 0.5em;
   text-align: center;
   margin: 0;
@@ -92,7 +93,7 @@ export const WeddingTime = styled.span`
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: #293622;
+  color: #37451f;
   text-align: end;
 `;
 
