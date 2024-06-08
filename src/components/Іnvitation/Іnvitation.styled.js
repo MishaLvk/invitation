@@ -41,6 +41,17 @@ export const Calendar = styled.div`
   text-align: center;
 `;
 
+export const NamesTitle = styled.span`
+  font-family: 'Great Vibes', cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+  font-size: 1.5em;
+  margin: 0;
+  display: block;
+  text-align: center;
+`;
+
 export const Names = styled.span`
   font-family: 'Great Vibes', cursive;
   font-weight: 600;
@@ -104,7 +115,7 @@ export const Constellation = styled.img`
 `;
 
 export const OurDate = styled.div`
-  color: #20251d;
+  color: #283222;
   font-weight: 500;
   display: block;
   position: relative;
@@ -122,6 +133,6 @@ export const Month = styled.h2`
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: #20251d;
-  text-align: start;
+  color: #283222;
+  text-align: center;
 `;

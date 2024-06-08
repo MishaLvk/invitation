@@ -6,6 +6,7 @@ import {
   Container,
   Content,
   Calendar,
+  NamesTitle,
   Names,
   Text,
   Line,
@@ -62,16 +63,17 @@ export default function Іnvitation() {
       </ConstellationFon>
       <Container>
         <Content>
+          <NamesTitle>Дорогі</NamesTitle>
           <Names> {guestData.name}!</Names>
           <Line></Line>
           <Text>
             <p>
               Ми збираємо родинне та дружнє коло на нашому весіллі, тому саме Ви
-              тримаєте в руках це запрошення. Ми з радістю запрошуємо Вас стати
-              частинкою нашої особливої події!
+              тримаєте в руках це запрошення. Ми з радістю запрошуємо Вас
+              відсвяткувати день народження нашої сім'ї!
             </p>
           </Text>
-          <Month>Червень 2024</Month>
+          <Month>Червень 2024 р</Month>
           <Calendar>
             <div>Пн</div>
             <div>Вт</div>
