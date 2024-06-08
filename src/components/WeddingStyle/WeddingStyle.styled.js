@@ -34,7 +34,7 @@ export const Title = styled.span`
   font-style: normal;
 
   color: black;
-  font-size: 1.9em;
+  font-size: 1.6em;
   font-weight: 500;
   display: block;
   text-align: center;

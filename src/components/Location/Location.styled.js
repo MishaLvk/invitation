@@ -43,7 +43,8 @@ export const ChurchContainer = styled.div`
 `;
 export const ChurchIcon = styled.img`
   width: 100%;
-  height: 100%;
+
+  opacity: 0.7;
 `;
 
 export const Text = styled.div`
@@ -69,10 +70,12 @@ export const TextLocation = styled.a`
 `;
 
 export const PointTitle = styled.h3`
+  font-family: 'Great Vibes', cursive;
+  font-weight: 700;
   width: 30vw;
   margin: 0;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1.3em;
 `;
 
 export const BanquetPoint = styled.div`
@@ -114,6 +117,7 @@ export const ChampaneContainer = styled.div`
 export const ChampagneIcon = styled.img`
   width: 100%;
   height: 100%;
+  opacity: 0.7;
 `;
 
 export const RingContainer = styled.div`
@@ -123,6 +127,7 @@ export const RingContainer = styled.div`
 
 export const RingIcon = styled.img`
   width: 100%;
+  opacity: 0.7;
 `;
 
 export const BanquetContainer = styled.div`
@@ -133,6 +138,7 @@ export const BanquetContainer = styled.div`
 
 export const BanquetIcon = styled.img`
   width: 100%;
+  opacity: 0.7;
 `;
 
 export const CakePoint = styled.div`
@@ -148,4 +154,5 @@ export const CakeContainer = styled.div`
 
 export const CakeIcon = styled.img`
   width: 100%;
+  opacity: 0.7;
 `;

@@ -31,29 +31,33 @@ export const Container = styled.div`
 
 export const Logo = styled.span`
   font-family: 'Great Vibes', cursive;
-  font-weight: 600;
+  font-weight: 400;
 
-  font-size: 60pt;
+  font-size: 80pt;
   font-style: normal;
   margin: 0;
+  margin-bottom: 70px;
   @media screen and (min-width: 600px) {
     font-size: 60pt;
   }
 `;
-export const TitleTa = styled.span`
+export const TitleTa = styled.div`
+  display: block;
+  width: 100%;
+  height: 25px;
   font-family: 'Great Vibes', cursive;
-  font-size: 2em;
-  font-weight: 500;
+  font-size: 3em;
+  font-weight: 400;
   font-style: normal;
 
   color: white;
-  display: block;
-  text-align: center;
+  text-align: end;
+  margin-top: -30px;
 `;
-export const Title = styled.span`
+export const Title = styled.div`
   font-family: 'Great Vibes', cursive;
-  font-size: 4em;
-  font-weight: 500;
+  font-size: 3.5em;
+  font-weight: 700;
   font-style: normal;
 
   color: white;

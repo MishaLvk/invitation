@@ -69,7 +69,9 @@ export const Peony = styled.img`
   display: block;
   width: 120%;
   height: 100%;
+  
   background-size: cover;
+   opacity: 0.8;
   margin-left: auto;
   margin-right: auto;
   @media screen and (min-width: 600px) {

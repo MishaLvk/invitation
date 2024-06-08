@@ -40,7 +40,7 @@ export default function Location() {
           </ChurchContainer>
           <Text>
             <WeddingTime>12:30</WeddingTime>
-            <PointTitle>ЦЕРЕМОНІЯ ВІНЧАННЯ</PointTitle>
+            <PointTitle>Церемонія вінчання</PointTitle>
             <TextPoint>Храм св. ап. Петра і Павла</TextPoint>
 
             <TextLocation
@@ -55,7 +55,7 @@ export default function Location() {
         <Buffet>
           <Text>
             <WeddingTime>14:00</WeddingTime>
-            <PointTitle>ЗБІР ГОСТЕЙ НА ФУРШЕТ</PointTitle>
+            <PointTitle>Збір гостей на фуршет</PointTitle>
             <TextPoint>Stavky Country Club</TextPoint>
             <TextLocation
               href="https://maps.app.goo.gl/DQgYJR9hhScZAc4ZA"
@@ -75,13 +75,13 @@ export default function Location() {
           </RingContainer>
           <Text>
             <WeddingTime>14:30</WeddingTime>
-            <PointTitle>ЦЕРЕМОНІЯ ТА ПРИВІТАННЯ</PointTitle>
+            <PointTitle>Церемонія та привітання</PointTitle>
           </Text>
         </Ceremony>
         <BanquetPoint>
           <Text>
-            <PointTitle>СВЯТКОВИЙ БАНКЕТ</PointTitle>
             <WeddingTime>15:30</WeddingTime>
+            <PointTitle>Святковий банкет</PointTitle>
           </Text>
           <BanquetContainer>
             <BanquetIcon src={iconBanquet} alt="icon" />
@@ -93,7 +93,7 @@ export default function Location() {
           </CakeContainer>
           <Text>
             <WeddingTime>21:00</WeddingTime>
-            <PointTitle>РОЗРІЗАННЯ СВЯТКОВОГО ТОРТА</PointTitle>
+            <PointTitle>Розрізання святкового торта</PointTitle>
           </Text>
         </CakePoint>
       </PointContainer>
