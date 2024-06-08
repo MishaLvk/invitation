@@ -39,7 +39,7 @@ export default function Location() {
             <ChurchIcon src={iconChurch} alt="icon" />
           </ChurchContainer>
           <Text>
-            <WeddingTime>12:00</WeddingTime>
+            <WeddingTime>12:30</WeddingTime>
             <PointTitle>ЦЕРЕМОНІЯ ВІНЧАННЯ</PointTitle>
             <TextPoint>Храм св. ап. Петра і Павла</TextPoint>
 
@@ -54,7 +54,7 @@ export default function Location() {
         </WeddingPoint>
         <Buffet>
           <Text>
-            <WeddingTime>13:45</WeddingTime>
+            <WeddingTime>14:00</WeddingTime>
             <PointTitle>ЗБІР ГОСТЕЙ НА ФУРШЕТ</PointTitle>
             <TextPoint>Stavky Country Club</TextPoint>
             <TextLocation
@@ -74,14 +74,14 @@ export default function Location() {
             <RingIcon src={iconRing} alt="icon" />
           </RingContainer>
           <Text>
-            <WeddingTime>14:15</WeddingTime>
-            <PointTitle>ЦЕРЕМОНІЯ</PointTitle>
+            <WeddingTime>14:30</WeddingTime>
+            <PointTitle>ЦЕРЕМОНІЯ ТА ПРИВІТАННЯ</PointTitle>
           </Text>
         </Ceremony>
         <BanquetPoint>
           <Text>
             <PointTitle>СВЯТКОВИЙ БАНКЕТ</PointTitle>
-            <WeddingTime>14:00</WeddingTime>
+            <WeddingTime>15:30</WeddingTime>
           </Text>
           <BanquetContainer>
             <BanquetIcon src={iconBanquet} alt="icon" />

@@ -14,6 +14,7 @@ import {
   OurDate,
   OurDateHeart,
   Month,
+  TextBottom,
 } from './Іnvitation.styled';
 import BigDipper from '../Images/Big Dipper.png';
 import Heart from '../Images/Heart.png';
@@ -64,11 +65,6 @@ export default function Іnvitation() {
           <Names> {guestData.name}!</Names>
           <Line></Line>
           <Text>
-            <p>
-              Є ПОДІЇ, ЯКІ ЗАЛИШАЮТЬСЯ В ПАМ'ЯТІ НА ВСЕ ЖИТТЯ. І Є ЛЮДИ, З ЯКИМИ
-              ХОЧЕТЬСЯ ЇХ РОЗДІЛИТИ.
-            </p>
-
             <p>
               Ми збираємо родинне та дружнє коло на нашому весіллі, тому саме Ви
               тримаєте в руках це запрошення. Ми з радістю запрошуємо Вас стати
@@ -123,6 +119,12 @@ export default function Іnvitation() {
               30
             </OurDate>
           </Calendar>
+          <TextBottom>
+            <p>
+              Є події, які залишаються в пам'яті на все життя. І є люди, з якими
+              хочеться їх розділити.
+            </p>
+          </TextBottom>
         </Content>
       </Container>
     </Fon>

@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const StyleBox = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  margin-left: auto;
+  margin-left: -20px;
   margin-right: auto;
   margin-top: 10px;
 
@@ -30,7 +30,7 @@ export const StyleBox = styled.div`
 
 export const Title = styled.span`
   font-family: 'Great Vibes', cursive;
-  font-weight: 600;
+
   font-style: normal;
 
   color: black;
@@ -42,14 +42,14 @@ export const Title = styled.span`
 
 export const Palette = styled.div`
   display: block;
-  width: 10vw;
-  
+  width: 13vw;
+    margin-left: -10px;
 @media screen and (min-width: 600px) {
     width: auto;
 
 `;
 
 export const Image = styled.img`
-  width: 100%;
+  width: 140%;
   height: auto;
 `;

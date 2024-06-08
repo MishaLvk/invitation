@@ -30,8 +30,9 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.span`
-  font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
-  font-weight: 500;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 600;
+
   font-size: 60pt;
   font-style: normal;
   margin: 0;

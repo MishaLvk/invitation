@@ -63,6 +63,17 @@ export const Text = styled.div`
   margin-bottom: 40px;
 `;
 
+export const TextBottom = styled.div`
+  font-family: 'Great Vibes', cursive;
+  color: black;
+  font-size: 1.6em;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+`;
+
 export const Line = styled.div`
   background-color: white;
   width: 80%;
@@ -78,7 +89,7 @@ export const ConstellationFon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, #3a2b28 -5%, #e1dfdb 100%);
+  // background: linear-gradient(to bottom, #272d25 -5%, #e1dfdb 100%);
   @media screen and (min-width: 600px) {
     height: 75vh;
   }
@@ -93,7 +104,7 @@ export const Constellation = styled.img`
 `;
 
 export const OurDate = styled.div`
-  color: rgb(176, 109, 32);
+  color: #20251d;
   font-weight: 500;
   display: block;
   position: relative;
@@ -111,6 +122,6 @@ export const Month = styled.h2`
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: rgb(176, 109, 32);
+  color: #20251d;
   text-align: start;
 `;
