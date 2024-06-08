@@ -19,13 +19,14 @@ export const Container = styled.div`
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 
   @media screen and (min-width: 600px) {
     max-width: 90vw;
+    height: 60vh;
   }
 `;
 
@@ -67,8 +68,10 @@ export const BoxFoto = styled.div`
 export const Peony = styled.img`
   display: block;
   width: 120%;
-
+  height: 100%;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (min-width: 600px) {
+    width: 100%;
 `;
