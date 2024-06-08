@@ -42,12 +42,12 @@ export const Calendar = styled.div`
 `;
 
 export const NamesTitle = styled.span`
-  font-family: 'Great Vibes', cursive;
-  font-weight: 600;
+  font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
+  font-weight: 500;
   font-style: normal;
   color: black;
-  font-size: 1.5em;
-  margin: 0;
+  font-size: 1.2em;
+  margin-bottom: 10px;
   display: block;
   text-align: center;
 `;
@@ -66,7 +66,7 @@ export const Names = styled.span`
 export const Text = styled.div`
   font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
   color: black;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 500;
   display: block;
   text-align: center;
