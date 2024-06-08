@@ -115,7 +115,7 @@ export const Constellation = styled.img`
 `;
 
 export const OurDate = styled.div`
-  color: #283222;
+  color: #22221a;
   font-weight: 500;
   display: block;
   position: relative;
@@ -133,6 +133,6 @@ export const Month = styled.h2`
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: #283222;
+  color: #22221a;
   text-align: center;
 `;
