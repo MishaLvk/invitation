@@ -43,25 +43,45 @@ export default function TimerUseNowStop() {
   // Remaining seconds
   const seconds = Math.floor((((countDown % day) % hour) % minute) / second);
 
+  //слова
+  function getUnitLabel(value, unit) {
+    const units = {
+      second: ['секунда', 'секунди', 'секунд'],
+      minute: ['хвилина', 'хвилини', 'хвилин'],
+      hour: ['година', 'години', 'годин'],
+      day: ['день', 'дні', 'днів'],
+    };
+
+    if (!units[unit]) return unit;
+
+    const cases = [2, 0, 1, 1, 1, 2];
+    const forms = units[unit];
+    return forms[
+      value % 100 > 4 && value % 100 < 20
+        ? 2
+        : cases[value % 10 < 5 ? value % 10 : 5]
+    ];
+  }
+  //слова
   return (
     <Foto>
       <Container>
         <Timer>
           <Period>
             <span>{days}</span>
-            <span>днів</span>
+            <span>{getUnitLabel(days, 'day')}</span>
           </Period>
           <Period>
             <span>{hours}</span>
-            <span>годин</span>
+            <span>{getUnitLabel(hours, 'hour')}</span>
           </Period>
           <Period>
             <span>{minutes}</span>
-            <span>хвилин</span>
+            <span>{getUnitLabel(minutes, 'minute')}</span>
           </Period>
           <Period>
             <span>{seconds}</span>
-            <span>секунд</span>
+            <span>{getUnitLabel(seconds, 'second')}</span>
           </Period>
         </Timer>
         <Title>... і ми будемо одружені</Title>
@@ -73,10 +93,3 @@ export default function TimerUseNowStop() {
     </Foto>
   );
 }
-/** 
-export default function Countdoun() {
-  return (
-    
-  );
-}
-**/
