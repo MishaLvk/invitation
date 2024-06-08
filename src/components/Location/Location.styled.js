@@ -77,7 +77,7 @@ export const PointTitle = styled.h3`
   margin: 0;
   text-align: center;
   font-size: 1.3em;
-  color: #293622;
+  color: #86603a;
 `;
 
 export const BanquetPoint = styled.div`
@@ -93,7 +93,7 @@ export const WeddingTime = styled.span`
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: #37451f;
+  color: #86603a;
   text-align: end;
 `;
 
