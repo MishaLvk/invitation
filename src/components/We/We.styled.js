@@ -42,13 +42,13 @@ export const Logo = styled.span`
 `;
 
 export const Title = styled.span`
-  font-family: 'EB Garamond', serif;
-  font-size: 3em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 4em;
   font-weight: 500;
   font-style: normal;
 
   color: white;
-  margin-top: 30px;
+  margin-top: 10px;
   display: block;
   text-align: center;
 `;

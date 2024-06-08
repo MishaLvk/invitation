@@ -5,7 +5,7 @@ export default function Timing() {
     <Fon>
       <Container>
         <Logo>М М</Logo>
-        <Title>МИХАЙЛО ТА МАРТА</Title>
+        <Title>Михайло</Title> <Title>Марта</Title>
       </Container>
     </Fon>
   );
