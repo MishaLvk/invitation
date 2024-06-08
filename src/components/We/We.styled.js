@@ -40,7 +40,16 @@ export const Logo = styled.span`
     font-size: 60pt;
   }
 `;
+export const TitleTa = styled.span`
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
+  font-weight: 500;
+  font-style: normal;
 
+  color: white;
+  display: block;
+  text-align: center;
+`;
 export const Title = styled.span`
   font-family: 'Great Vibes', cursive;
   font-size: 4em;
@@ -48,7 +57,7 @@ export const Title = styled.span`
   font-style: normal;
 
   color: white;
-  margin-top: 10px;
+
   display: block;
   text-align: center;
 `;
