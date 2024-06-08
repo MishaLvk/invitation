@@ -91,7 +91,7 @@ export const WeddingTime = styled.span`
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: rgb(176, 109, 32);
+  color: #0f2e29;
   text-align: end;
 `;
 
