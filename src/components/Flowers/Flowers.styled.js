@@ -32,6 +32,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: block;
+  z-index: 1;
 `;
 
 export const Names = styled.span`
@@ -58,6 +59,7 @@ export const Text = styled.div`
 export const BoxFoto = styled.div`
   display: block;
   position: absolute;
+
   width: 30vw;
   height: 100%;
 
