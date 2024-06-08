@@ -89,11 +89,11 @@ export const BanquetPoint = styled.div`
 
 export const WeddingTime = styled.span`
   font-family: 'Great Vibes', cursive;
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: #8b4513;
+  color: #5b7b3d;
   text-align: end;
 `;
 

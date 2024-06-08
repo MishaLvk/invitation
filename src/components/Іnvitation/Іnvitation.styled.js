@@ -40,7 +40,7 @@ export const Calendar = styled.div`
   letter-spacing: 0.1em;
   font-variant: small-caps;
   text-align: center;
-  color: #4f632b;
+  color: #6d944a;
 `;
 
 export const NamesTitle = styled.span`
@@ -117,7 +117,7 @@ export const Constellation = styled.img`
 `;
 
 export const OurDate = styled.div`
-  color: #37451f;
+  color: #6f974b;
   font-weight: 700;
   display: block;
   position: relative;
@@ -135,6 +135,6 @@ export const Month = styled.h2`
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: #37451f;
+  color: #000000;
   text-align: center;
 `;
