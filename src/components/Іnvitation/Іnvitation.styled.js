@@ -29,6 +29,7 @@ export const Content = styled.div`
 `;
 
 export const Calendar = styled.div`
+  font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
   max-width: 90%;
   font-size: 1.2em;
   display: grid;
