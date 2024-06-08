@@ -61,6 +61,7 @@ export const TextPoint = styled.p`
   font-weight: 500;
   text-align: center;
   margin: 0;
+  color: #293622;
 `;
 
 export const TextLocation = styled.a`
@@ -76,6 +77,7 @@ export const PointTitle = styled.h3`
   margin: 0;
   text-align: center;
   font-size: 1.3em;
+  color: #293622;
 `;
 
 export const BanquetPoint = styled.div`
@@ -117,7 +119,6 @@ export const ChampaneContainer = styled.div`
 export const ChampagneIcon = styled.img`
   width: 100%;
   height: 100%;
-  opacity: 0.7;
 `;
 
 export const RingContainer = styled.div`
@@ -127,7 +128,6 @@ export const RingContainer = styled.div`
 
 export const RingIcon = styled.img`
   width: 100%;
-  opacity: 0.7;
 `;
 
 export const BanquetContainer = styled.div`
