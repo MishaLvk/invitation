@@ -6,7 +6,7 @@ import {
   Timer,
   Period,
   Title,
-  CountdounText,
+  //CountdounText,
 } from './Countdoun.styled';
 
 export default function TimerUseNowStop() {

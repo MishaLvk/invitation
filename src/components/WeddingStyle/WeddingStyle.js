@@ -8,7 +8,7 @@ import {
 import pink from '../Images/Pink.png';
 import mistyRose from '../Images/MistyRose.png';
 import moccasin from '../Images/Moccasin.png';
-import navajoWhite from '../Images/NavajoWhite.png';
+//import navajoWhite from '../Images/NavajoWhite.png';
 import lightGray from '../Images/LightGray.png';
 import ghostWhite from '../Images/GhostWhite.png';
 import lavender from '../Images/Lavender.png';
