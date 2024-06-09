@@ -30,7 +30,7 @@ export const Container = styled.div`
     padding-top: 14vh;
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1024px) {
     max-width: 500px;
   }
 `;
@@ -58,7 +58,7 @@ export const LogoMisha = styled.div`
     height: 17vh;
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1024px) {
     font-size: 7em;
     height: 17vh;
   }
@@ -78,7 +78,7 @@ export const LogoMarta = styled.div`
     height: 17vh;
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1024px) {
     font-size: 7em;
     height: 17vh;
   }
@@ -98,7 +98,7 @@ export const Title = styled.div`
     height: 6vh;
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1024px) {
     font-size: 4em;
     height: 9vh;
   }

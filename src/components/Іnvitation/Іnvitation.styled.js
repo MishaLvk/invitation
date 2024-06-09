@@ -21,7 +21,7 @@ export const Container = styled.div`
   @media screen and (min-width: 600px) {
     max-width: 90vw;
   }
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1024px) {
     max-width: 500px;
   }
 `;
@@ -122,7 +122,7 @@ export const Constellation = styled.img`
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1024px) {
     width: 25%;
   }
 `;

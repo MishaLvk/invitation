@@ -21,7 +21,7 @@ export const Container = styled.div`
     max-width: 90vw;
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1024px) {
     max-width: 500px;
   }
 `;
@@ -79,7 +79,7 @@ export const BoxFoto = styled.div`
   margin-right: auto;
   overflow: hidden;
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1024px) {
     max-width: 500px;
   }
 `;
