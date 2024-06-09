@@ -61,7 +61,6 @@ export const TextPoint = styled.p`
   font-size: 0.8em;
   font-weight: 500;
   text-align: center;
-  color: #265624;
   margin: 0;
 `;
 

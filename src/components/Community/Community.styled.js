@@ -57,7 +57,7 @@ export const Hashtag = styled.span`
   font-family: 'Great Vibes', cursive;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.9em;
+  font-size: 1.6em;
   text-align: center;
   color: #265624;
 `;
