@@ -23,7 +23,7 @@ export const Title = styled.h2`
   margin: 0;
   margin-bottom: 20px;
   text-align: start;
-  color: #;
+  color: #265624;
 `;
 
 export const PointContainer = styled.div`
@@ -59,6 +59,7 @@ export const TextPoint = styled.p`
   font-size: 0.8em;
   font-weight: 500;
   text-align: center;
+  color: #265624;
   margin: 0;
 `;
 
@@ -77,7 +78,6 @@ export const PointTitle = styled.h3`
   margin: 0;
   text-align: center;
   font-size: 1.3em;
-  color: ;
 `;
 
 export const BanquetPoint = styled.div`
@@ -93,7 +93,7 @@ export const WeddingTime = styled.span`
   font-style: normal;
   font-size: 2em;
   margin: 0;
-  color: #5b7b3d;
+  color: #265624;
   text-align: end;
 `;
 

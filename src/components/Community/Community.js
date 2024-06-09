@@ -8,6 +8,7 @@ import {
   Constellation,
   TelegramIcon,
   TelegramLink,
+  Hashtag,
 } from './Community.styled';
 import we from '../Images/photo_we.jpg';
 import iconTelegram from '../Images/telegram-png.png';
@@ -19,6 +20,7 @@ export default function Community() {
           <Constellation src={we} alt="we" />
         </BoxFoto>
         <Content>
+          <Hashtag>сильно-сильно міцно-міцно</Hashtag>
           <Line></Line>
           <Text>
             <span>

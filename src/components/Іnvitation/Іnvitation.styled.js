@@ -5,7 +5,7 @@ export const Fon = styled.div`
   display: block;
   margin: 0;
   box-sizing: border-box;
-  color: white;
+
   width: 100%;
   height: 100%;
 `;
@@ -25,10 +25,12 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
 `;
 
 export const Calendar = styled.div`
+  position: relative;
+  z-index: 0;
   font-family: 'EB Garamond', 'Great Vibes', serif, cursive;
   max-width: 90%;
   font-size: 1.2em;
@@ -41,6 +43,7 @@ export const Calendar = styled.div`
   font-variant: small-caps;
   text-align: center;
   color: #6d944a;
+  margin-bottom: 40px;
 `;
 
 export const NamesTitle = styled.span`
@@ -59,10 +62,11 @@ export const Names = styled.span`
   font-weight: 600;
   font-style: normal;
   color: black;
-  font-size: 2em;
+  font-size: 2.4em;
   margin: 0;
   display: block;
   text-align: center;
+  color: #265624;
 `;
 
 export const Text = styled.div`
@@ -97,7 +101,7 @@ export const Line = styled.div`
 
 export const ConstellationFon = styled.div`
   width: 100%;
-  height: 22vh;
+  height: 20vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -122,6 +126,18 @@ export const OurDate = styled.div`
   display: block;
   position: relative;
 `;
+
+export const Mountains = styled.img`
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.1;
+  bottom: 0;
+  @media screen and (min-width: 600px) {
+    left: 30%;
+    width: 50%;
+  }
+`;
 export const OurDateHeart = styled.img`
   position: absolute;
   width: 50px;
@@ -135,6 +151,7 @@ export const Month = styled.h2`
   font-style: normal;
   font-size: 2em;
   margin: 0;
+  margin-bottom: 20px;
   color: #000000;
   text-align: center;
 `;

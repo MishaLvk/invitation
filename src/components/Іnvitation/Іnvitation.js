@@ -16,9 +16,11 @@ import {
   OurDateHeart,
   Month,
   TextBottom,
+  Mountains,
 } from './Іnvitation.styled';
 import BigDipper from '../Images/Big Dipper.png';
 import Heart from '../Images/Heart.png';
+import mountains from '../Images/mountains.png';
 import guests from '../Guests.json';
 export default function Іnvitation() {
   const { key } = useParams();
@@ -73,8 +75,9 @@ export default function Іnvitation() {
               відсвяткувати день народження нашої сім'ї!
             </p>
           </Text>
-          <Month>Червень 2024 р</Month>
+          <Month>Червень 2024</Month>
           <Calendar>
+            <Mountains src={mountains} alt="" />
             <div>Пн</div>
             <div>Вт</div>
             <div>Ср</div>
