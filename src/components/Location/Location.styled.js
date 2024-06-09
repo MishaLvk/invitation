@@ -13,6 +13,9 @@ export const Container = styled.div`
   @media screen and (min-width: 600px) {
     max-width: 90vw;
    
+     @media screen and (min-width: 900px) {
+    max-width: 500px;
+  }
 `;
 
 export const Title = styled.h2`

@@ -29,6 +29,10 @@ export const Container = styled.div`
     max-width: 44vw;
     padding-top: 14vh;
   }
+
+  @media screen and (min-width: 900px) {
+    max-width: 500px;
+  }
 `;
 
 export const LogoContainer = styled.div`

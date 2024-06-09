@@ -28,6 +28,10 @@ export const Container = styled.div`
     max-width: 90vw;
     height: 60vh;
   }
+
+  @media screen and (min-width: 900px) {
+    max-width: 500px;
+  }
 `;
 
 export const Content = styled.div`
