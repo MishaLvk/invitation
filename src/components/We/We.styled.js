@@ -57,6 +57,11 @@ export const LogoMisha = styled.div`
   @media screen and (min-width: 600px) {
     height: 17vh;
   }
+
+  @media screen and (min-width: 900px) {
+    font-size: 7em;
+    height: 17vh;
+  }
 `;
 export const LogoMarta = styled.div`
   font-family: 'Great Vibes', cursive;
@@ -70,6 +75,11 @@ export const LogoMarta = styled.div`
   display: block;
   text-align: end;
   @media screen and (min-width: 600px) {
+    height: 17vh;
+  }
+
+  @media screen and (min-width: 900px) {
+    font-size: 7em;
     height: 17vh;
   }
 `;
@@ -86,5 +96,10 @@ export const Title = styled.div`
   text-align: center;
   @media screen and (min-width: 600px) {
     height: 6vh;
+  }
+
+  @media screen and (min-width: 900px) {
+    font-size: 4em;
+    height: 9vh;
   }
 `;

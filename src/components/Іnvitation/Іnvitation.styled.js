@@ -121,6 +121,10 @@ export const Constellation = styled.img`
 
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 900px) {
+    width: 25%;
+  }
 `;
 
 export const OurDate = styled.div`

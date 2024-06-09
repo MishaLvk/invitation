@@ -78,6 +78,10 @@ export const BoxFoto = styled.div`
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+
+  @media screen and (min-width: 900px) {
+    max-width: 500px;
+  }
 `;
 
 export const Constellation = styled.img`
