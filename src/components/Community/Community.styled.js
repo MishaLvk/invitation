@@ -55,7 +55,7 @@ export const Text = styled.div`
 export const Hashtag = styled.span`
   display: block;
   font-family: 'Great Vibes', cursive;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   font-size: 1.9em;
   text-align: center;

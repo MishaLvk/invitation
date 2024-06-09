@@ -26,7 +26,6 @@ export const Title = styled.h2`
   margin: 0;
   margin-bottom: 20px;
   text-align: start;
-  color: #265624;
 `;
 
 export const PointContainer = styled.div`
