@@ -134,8 +134,8 @@ export const Mountains = styled.img`
   opacity: 0.1;
   bottom: 0;
   @media screen and (min-width: 600px) {
-    left: 30%;
-    width: 50%;
+    left: 27%;
+    width: 55%;
   }
 `;
 export const OurDateHeart = styled.img`

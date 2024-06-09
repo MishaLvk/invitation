@@ -51,7 +51,7 @@ export const Text = styled.div`
 export const Hashtag = styled.span`
   display: block;
   font-family: 'Great Vibes', cursive;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
   font-size: 1.9em;
   text-align: center;
@@ -103,7 +103,7 @@ export const TelegramLink = styled.a`
   background-color: gray;
   text-decoration: none;
   color: white;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
