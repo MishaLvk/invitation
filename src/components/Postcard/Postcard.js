@@ -1,4 +1,5 @@
 import Іnvitation from 'components/Іnvitation/Іnvitation';
+import { useState } from 'react';
 import { Fon } from './Postcard.styled';
 //import Countdoun from 'components/Countdoun/Countdoun';
 import Location from 'components/Location/Location';
@@ -9,15 +10,22 @@ import Community from 'components/Community/Community';
 import Flowers from 'components/Flowers/Flowers';
 
 export default function Postcard() {
+  const [showPast, setShowPast] = useState(false);
+
+  const handleToggle = () => {
+    console.log(showPast);
+    setShowPast(!showPast);
+  };
+
   return (
     <Fon>
       <We />
-      <Іnvitation />
+      <Іnvitation showPast={showPast} />
       <Location />
-      <WeddingStyle />
-      <Flowers />
+      <WeddingStyle showPast={showPast} />
+      <Flowers showPast={showPast} />
       <Community />
-      <TimerUseNowStop />
+      <TimerUseNowStop onToggle={handleToggle} showPast={showPast} />
     </Fon>
   );
 }

@@ -6,20 +6,19 @@ import {
   Timer,
   Period,
   Title,
+  TimeButton,
   //CountdounText,
 } from './Countdoun.styled';
 
-export default function TimerUseNowStop() {
+export default function TimerUseNowStop({ onToggle, showPast }) {
   const [now, setNow] = useState(Date.now());
 
   const interval = 1000;
-  const countDown = 1719739800000 - now;
 
+  const countDown = showPast ? 0 : now - 1719739800000;
+  //1719739800000
   const isCountEnd = countDown === 0;
   useEffect(() => {
-    if (isCountEnd) {
-      alert('Count down');
-    }
     const int = setInterval(() => {
       setNow(Date.now());
     }, interval);
@@ -63,8 +62,9 @@ export default function TimerUseNowStop() {
     ];
   }
   //слова
+
   return (
-    <Foto>
+    <Foto showPast={showPast}>
       <Container>
         <Timer>
           <Period>
@@ -84,8 +84,15 @@ export default function TimerUseNowStop() {
             <span>{getUnitLabel(seconds, 'second')}</span>
           </Period>
         </Timer>
-        <Title>... і ми будемо одружені</Title>
+        {showPast ? (
+          <Title>... і ми будемо одружені</Title>
+        ) : (
+          <Title> ми одружені</Title>
+        )}
       </Container>
+      <TimeButton onClick={onToggle}>
+        {showPast ? 'Повернутися до сьогодення' : 'Заглянути в минуле'}
+      </TimeButton>
     </Foto>
   );
 }

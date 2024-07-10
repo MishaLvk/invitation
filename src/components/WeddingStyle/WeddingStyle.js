@@ -13,15 +13,24 @@ import lightGray from '../Images/LightGray.png';
 import ghostWhite from '../Images/GhostWhite.png';
 import lavender from '../Images/Lavender.png';
 import lightBlue from '../Images/LightBlue.png';
-export default function WeddingStyle() {
+export default function WeddingStyle(showPast) {
   return (
     <div>
       <Container>
-        <Title>
-          Для нас найважливіше - Ваша присутність, але нам буде дуже приємно,
-          якщо чоловіки оберуть білі сорочки, а жінки дотримаються нашої
-          кольорової гами
-        </Title>
+        {showPast.showPast ? (
+          <Title>
+            Для нас найважливіше - Ваша присутність, але нам буде дуже приємно,
+            якщо чоловіки оберуть білі сорочки, а жінки дотримаються нашої
+            кольорової гами
+          </Title>
+        ) : (
+          <Title>
+            Для нас найважливіше - присутність, але нам було дуже приємно, що
+            чоловіки обрали білі сорочки, а жінки дотрималися нашої кольорової
+            гами
+          </Title>
+        )}
+
         <div>
           <StyleBox>
             <Palette>
